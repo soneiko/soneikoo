@@ -5,7 +5,7 @@ layout: default
 
 # soneikoo.com
 * Arrays
-* Binary Search Tress
+* Binary Search Trees
 * Binary Trees
 * Dynamic Programming
 * Famous Algorithms

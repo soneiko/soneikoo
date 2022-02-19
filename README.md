@@ -1,2 +1,2 @@
 # soneikoo.com
-AlgoExpert.io problems' solutions
+My solutions to popular AlgoProblems

@@ -27,6 +27,7 @@ github_username: soneiko
 
 # Build settings
 theme: jekyll-theme-cayman
+permalink: /:title/
 plugins:
   - jekyll-feed
 

@@ -37,7 +37,7 @@ tree =            1
 # 11 == 1 + 3 + 7
 ```
 
-**My solution**
+**Solution**
 
 Although problem is labeled with *easy* mark, it is not that simple to implement the solving idea. Because expected answer is not just an integer value, but whole list with branch sums. Okay, yeah it's pretty easy to see that some modification of standard DFS algorithm is required here, since we were asked to order those branch sums from leftmost to rightmost. Only thing required additionally is to keep track of answer list which should ideally be declared in out scope of recursive DFS function. Other things are straightforward, everytime DFS hits the leaf, we add new answer to the answer list. Since, DFS traverses from left to right, the final answer will be ordered as expected. 
 

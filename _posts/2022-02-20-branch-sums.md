@@ -4,7 +4,8 @@ layout: default
 ---
 
 ```python
-{ Difficulty: "Easy", Category: "Binary Trees" }
+Difficulty: 'Easy'
+Category:   'Binary Trees'
 ```
 
 **Problem statement**

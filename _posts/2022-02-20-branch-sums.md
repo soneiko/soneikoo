@@ -3,11 +3,13 @@ title: Branch Sums
 layout: default
 ---
 
-**Difficulty**: Easy
+```python
+{ Difficulty: "Easy", Category: "Binary Trees" }
+```
 
-**Category**: Binary Trees
+**Problem statement**
 
-**Problem statement**: Write a function that takes in a Binary Tree and returns a list of its branch sums ordered from leftmost branch sum to rightmost branch sum.
+Write a function that takes in a Binary Tree and returns a list of its branch sums ordered from leftmost branch sum to rightmost branch sum.
 
 A branch sum is the sum of all values in a Binary Tree branch. A Binary Tree branch is a path of nodes in a tree that starts at the root node and ends at any leaf node.
 
@@ -34,7 +36,9 @@ tree =            1
 # 11 == 1 + 3 + 7
 ```
 
-**My solution**: Although problem is labeled with *easy* mark, it is not that simple to implement the solving idea. Because expected answer is not just an integer value, but whole list with branch sums. Okay, yeah it's pretty easy to see that some modification of standard DFS algorithm is required here, since we were asked to order those branch sums from leftmost to rightmost. Only thing required additionally is to keep track of answer list which should ideally be declared in out scope of recursive DFS function. Other things are straightforward, everytime DFS hits the leaf, we add new answer to the answer list. Since, DFS traverses from left to right, the final answer will be ordered as expected. 
+**My solution**
+
+Although problem is labeled with *easy* mark, it is not that simple to implement the solving idea. Because expected answer is not just an integer value, but whole list with branch sums. Okay, yeah it's pretty easy to see that some modification of standard DFS algorithm is required here, since we were asked to order those branch sums from leftmost to rightmost. Only thing required additionally is to keep track of answer list which should ideally be declared in out scope of recursive DFS function. Other things are straightforward, everytime DFS hits the leaf, we add new answer to the answer list. Since, DFS traverses from left to right, the final answer will be ordered as expected. 
 
 One important thing to remember is that in Python, standard list is reference-based variable. This means our list variable keeps only reference to its list, not the value itself. And the good thing about it for our solution is that, when everytime out recursive function is called passing this answer list variable: *first* - it is not going to be slow , *second* - when inner recursive call returns to outer recursive call, the possibly added answer value to that list will not be lost. 
 

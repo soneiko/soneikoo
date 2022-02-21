@@ -11,6 +11,7 @@ layout: default
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Min Number Of Coins For Change]({% post_url 2022-02-20-min-number-of-coins-for-change %})
 ### &#9816;	 Famous Algorithms
 ### &#9817;	 Graphs
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Rectangle Mania]({% post_url 2022-02-21-rectangle-mania %})
 ### &#9818; Greedy Algorithms
 ### &#9819;	 Heaps
 ### &#9820;	 Linked Lists

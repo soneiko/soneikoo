@@ -20,7 +20,7 @@
 
 title: soneikoo.com
 email: sukhrobkassymov@gmail.com
-description: Solutions to popular AlgoProblems
+description: Solutions to popular FAANG problems
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://soneikoo.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: soneiko

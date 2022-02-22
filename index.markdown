@@ -17,6 +17,7 @@ layout: default
 ### &#9820;	 Linked Lists
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Remove Duplicates From Linked List]({% post_url 2022-02-21-remove-duplicates-from-linked-list %})
 ### &#9821;	 Recursion
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Permutations]({% post_url 2022-02-21-permutations %})
 ### &#9822; Searching
 ### &#9823;	 Sorting
 ### &#9812; Stacks

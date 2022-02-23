@@ -14,13 +14,13 @@ Note that you have access to an unlimited amount of coins. In other words, if th
 If it's impossible to make change for the target amount, return `-1`.
 
 **Sample Input**
-```
+```python
 n = 7
 denoms = [1, 5, 10]
 ```
 
 **Sample Output**
-```
+```python
 3  # 2x1 + 1x5
 ```
 

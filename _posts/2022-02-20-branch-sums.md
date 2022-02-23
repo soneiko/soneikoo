@@ -15,7 +15,7 @@ A branch sum is the sum of all values in a Binary Tree branch. A Binary Tree bra
 Each `BinaryTree` node has an integer `value`, a `left` child node, and a `right`  child node. Children nodes can either be `BinaryTree` nodes themselves or `None` / `null`.
 
 **Sample Input**  
-```
+```python
 tree =            1
                 /   \
                2     3
@@ -26,7 +26,7 @@ tree =            1
 ```
 
 **Sample Output**
-```
+```python
 [15, 16, 18, 10, 11]
 # 15 == 1 + 2 + 4 + 8
 # 16 == 1 + 2 + 4 + 9

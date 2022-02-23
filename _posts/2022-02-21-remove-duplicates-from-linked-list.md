@@ -26,6 +26,8 @@ linkedList = 1 -> 1 -> 3 -> 4 -> 4 -> 4 -> 5 -> 6 -> 6 # the head node with valu
 Solving idea is easy to come up with. So, we need to remove duplicates, but notice that these duplicates are located in consecutive subpart of the given Linked List. This is the main observation. Now, we need to get rid of that parts, in other words - compress them to one value. (i.e., instead of `4 -> 4 -> 4`, we need `4`). 
 
 This is easy to do job with two inner loops. Outer loop for traversing the list, inner loop for traversing duplicate parts and collapsing them. Refer to the code below, if you are not familiar with this technique.
+
+Despite two nested loops, time complexity of this code is still `O(N), N = number of nodes`.
 ```python
 class LinkedList:
     def __init__(self, value):

@@ -1,2 +1,2 @@
 # soneikoo.com
-My solutions to popular AlgoProblems
+Solutions to popular FAANG problems

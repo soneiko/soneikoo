@@ -13,11 +13,16 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <a id="skip-to-content" href="#content">Skip to the content.</a>
+    <!--<a id="skip-to-content" href="#content">Skip to the content.</a>-->
 
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <header class="page-header" role="banner"> <!--class="page-header"-->
+      <div class="site-logo">
+      <a href="{{ site.url }}">
+        <img src="/soneikoo_com_2.png" style="width:60%;min-width:250px;height:auto;"/>
+      </a>
+      </div>
+      <!--<h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>-->
+      <!--<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>-->
     </header>
 
     <main id="content" class="main-content" role="main">

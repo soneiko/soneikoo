@@ -20,7 +20,7 @@ layout: default
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Nth Fibonacci]({% post_url 2022-02-22-nth-fibonacci %})<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Permutations]({% post_url 2022-02-21-permutations %})
 ### &#9822; Searching
-### &#9823;	 Sorting
+### &#9815;	 Sorting
 ### &#9812; Stacks
 ### &#9813;	 Strings
 ### &#9814;	 Tries

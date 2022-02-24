@@ -33,9 +33,9 @@ n = 6
 
 **Solution**
 
-This is the most basic and classic problem for Recursion. Solution code of it shows the beaty of recursion and how amazing things could happen with several lines of code. 
+This is the most basic and classic problem of Recursion. Solution code of it shows the beaty of recursion and how amazing things could happen with several lines of code. 
 
-Below, you can find three different solutions. Each of them deserves to be written even if some are not optimal. Let's compare them:
+Below, you can find three different solutions. Each of them deserves to be posted even if some are not optimal. Let's compare them:
 1. The most beautiful solution. But time complexity `O(2 ^ n)`, space complexity `O(n)` (because of recursion stack).
 2. Solution which shows the power of memoization technique and how it can reduce complexity from exponential to linear. Time complexity `O(n)`, space `O(n)`.
 3. This is optimal solution, although it's not recursive. `O(n)` time, `O(1)` space.

@@ -22,5 +22,6 @@ layout: default
 ### &#9822; Searching
 ### &#9815;	 Sorting
 ### &#9812; Stacks
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Balanced Brackets]({% post_url 2022-02-25-balanced-brackets %})
 ### &#9813;	 Strings
 ### &#9814;	 Tries

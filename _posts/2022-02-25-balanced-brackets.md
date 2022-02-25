@@ -28,7 +28,7 @@ Balanced Brackets is the most classic problem of Stacks. It truly shows how such
 So, all we do is - maintain one stack for opening brackets of all type. While iterating given string from left to right:
 1. If you see opening bracket, add it to the stack.
 2. If you see closing bracket:<br>
-    2.1. If stack is empty - return False. It means we found unmatches closing bracket. Unmatched because it              comes before its opening pair.<br>
+    2.1. If stack is empty - return False. It means we found unmatched closing bracket. Unmatched because it              comes before its opening pair.<br>
     2.2. If closing bracket matches to top of the stack - pop the stack. Continue.<br>
     2.3. Else if closing bracket doesn't match top of the stack - return False. It means we found overlaping                      brackets.
 3. If you see other character - just ignore it.

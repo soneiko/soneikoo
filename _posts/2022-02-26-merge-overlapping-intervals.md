@@ -31,7 +31,7 @@ intervals = [[1, 2], [3, 5], [4, 7], [6, 8], [9, 10]]
 
 Overlapping intervals is very popular problem. Despite its category being Arrays, I personally think the problem is about geometrical thinking. 
 
-First thing you should figure out is that it cannot be solved in linear time, because not sorted intervals are given as input. That is why we need to sort them anyway, Sort them with respect to the start value of intervals.
+First thing you should figure out is that it cannot be solved in linear time, because not sorted intervals are given as input. That is why we need to sort them anyway. Sort them with respect to the start value of intervals.
 
 Then, while iterating the sorted array from left to right:
 1. If current interval overlaps with the last one in answer list - merge them and update the answer.

@@ -31,7 +31,7 @@ True
 
 **Solution**
 
-This is very a fundamental problem of Binary Search Trees. I can paraphrase the big problem statement above with one sentence: Check, whether given binary tree is binary search tree or not. This is what asked from us.
+This is a fundamental problem of Binary Search Trees. I can paraphrase the big problem statement above with one sentence: Check, whether given binary tree is binary search tree or not. This is what asked from us.
 
 Actually, solution is not ordinary and very elegant. Because it uses recursion in a non-conventional way. First, it shows the full power of input parameters of a recursive function. Second, it shows a top-down approach of recursion. Because, traditionally for our brains it is easier to imagine bottom-up approach of a recursion.
 

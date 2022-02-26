@@ -6,6 +6,7 @@ layout: default
 ### &#9812; Arrays
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Merge Overlapping Intervals]({% post_url 2022-02-26-merge-overlapping-intervals %})
 ### &#9813; Binary Search Trees
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Validate BST]({% post_url 2022-02-26-validate-bst %})
 ### &#9814;	 Binary Trees 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Branch Sums]({% post_url 2022-02-20-branch-sums %})
 ### &#9815; Dynamic Programming

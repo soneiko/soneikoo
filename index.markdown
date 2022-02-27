@@ -26,4 +26,5 @@ layout: default
 ### &#9812; Stacks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Balanced Brackets]({% post_url 2022-02-25-balanced-brackets %})
 ### &#9813;	 Strings
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Palindrome Check]({% post_url 2022-02-27-palindrome-check %})
 ### &#9814;	 Tries

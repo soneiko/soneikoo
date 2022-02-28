@@ -23,9 +23,9 @@ True # it's written the same forward and backward
 
 **Solution**
 
-Although, this is very easy problem, in general, palindrome problems may become true nightmare. Especially, palindrome + dynamic programming kind of problems. But ok, lets focus on this one.
+Although this is a very easy problem, in general, palindrome problems may become a true nightmare. Especially, palindrome + dynamic programming kind of problems. But ok, lets focus on this one.
 
-I'll tell you right away, optimal time complexity is `O(n)`, optimal space complexity is `O(1)`. So, we should check palindromeness property in-place (not creating auxiliary string). Now, look at the sequence of paired integers below, what do you think they mean?:
+I'll tell you right away, the optimal time complexity is `O(n)`, optimal space complexity is `O(1)`. So, we should check palindromeness property in-place (not creating auxiliary string). Now, look at the sequence of paired integers below, what do you think they mean?:
 * `0` <> `n - 1`
 * `1` <> `n - 2`
 * `2` <> `n - 3`

@@ -9,8 +9,7 @@ layout: default
 ### &#9813; Binary Search Trees
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Validate BST]({% post_url 2022-02-26-validate-bst %})
 ### &#9814;	 Binary Trees 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Branch Sums]({% post_url 2022-02-20-branch-sums %})<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Binary Tree Diameter]({% link _posts/2022-03-01-binary-tree-diameter.md %})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Branch Sums]({% post_url 2022-02-20-branch-sums %})
 ### &#9815; Dynamic Programming
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Min Number Of Coins For Change]({% post_url 2022-02-20-min-number-of-coins-for-change %})
 ### &#9816;	 Famous Algorithms

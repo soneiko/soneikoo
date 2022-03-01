@@ -38,11 +38,21 @@ tree =           1
 
 **Solution**
 
-The description says - medium problem, okay. The tricky part is that the diameter path does not have to pass from the root. 
+The description says it is a medium problem, ok. The tricky part is that the diameter path does not have to pass through the root. 
 
-Obviously, the solution is some modification of DFS. Let's say, our DFS  is currently processing some node. What will be the answer for this node, if we have correct answers from the left subtree and right subtree? Surely, it will be the maximum of those two. But what if diameter passes from the current node which we are processing now? Then, the answer will be the maximum of the length of the longest `path` from the left subtree and the length of the longest `path` from the right subtree. By longest `path`, I mean the path starting from the root of that subtree and ending at some of the leaves of that subtree.
+Obviously, the solution is some modification of DFS. Let's say, our DFS  is currently processing some `node`. What will be the answer for this `node`? In fact, there is one of the *three* things that could possibly happen:
 
-So, this means our recursive function should be able to update and return 2 values: answer of its subtree and the length of the longest path of its subtree. 
+1. Diameter is located somewhere in the left subtree of the current `node`.
+2. Diameter is located somewhere in the right subtree of the current `node`.
+3. Diameter passes through current `node` we are processing. 
+
+Ok, it is pretty easy to handle first two cases: Assuming that we have correct answers for the left and right subtree, just take the maximum of them. But how to calculate the answer in third case? What will be the length of the longest path passing through the current `node`? Assuming that we have the length of the longest `path` in the left subtree and the length of the longest `path` in the right subtree, it will be maximum of them plus two. By longest `path`, I mean the path starting from the root of that subtree and ending at some of the leaves of that subtree.
+
+So, this means our recursive function should be able to update and transfer two values: 
+* Local answer of its local subtree.
+* The length of the longest `path` starting at local root and ending at some of the leaves. 
+
+
 ```python
 class BinaryTree:
     def __init__(self, value, left=None, right=None):

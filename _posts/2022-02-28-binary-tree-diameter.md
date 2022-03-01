@@ -38,15 +38,15 @@ tree =           1
 
 **Solution**
 
-The description says it is a medium problem, ok. The tricky part is that the diameter path does not have to pass through the root. 
+Description says it is a medium problem, ok. Tricky part of the problem is that the diameter doesn't have to pass through the root. 
 
-Obviously, the solution is some modification of DFS. Let's say, our DFS  is currently processing some `node`. What will be the answer for this `node`? In fact, there is one of the *three* things that could possibly happen:
+Probably, correct solution is some kind of modification of standart DFS traversal. Let's say, our DFS  is currently processing some `node`. What will be the answer for this `node`? In fact, there is one of the *three* things that could possibly happen:
 
 1. Diameter is located somewhere in the left subtree of the current `node`.
 2. Diameter is located somewhere in the right subtree of the current `node`.
 3. Diameter passes through current `node` we are processing. 
 
-Ok, it is pretty easy to handle first two cases: Assuming that we have correct answers for the left and right subtree, just take the maximum of them. But how to calculate the answer in third case? What will be the length of the longest path passing through the current `node`? Assuming that we have the length of the longest `path` in the left subtree and the length of the longest `path` in the right subtree, it will be maximum of them plus two. By longest `path`, I mean the path starting from the root of that subtree and ending at some of the leaves of that subtree.
+Ok, it is pretty easy to handle first two cases: assuming that we have correct answers for the left and right subtree, just take the maximum of them. But how to calculate the answer in third case? What will be the length of the longest path passing through the current `node`? Assuming that we have the length of the longest `path` in the left subtree and the length of the longest `path` in the right subtree, it will be maximum of them plus two. By longest `path`, I mean the path starting from the root of that subtree and ending at some of the leaves of that subtree.
 
 So, this means our recursive function should be able to update and transfer two values: 
 * Local answer of its local subtree.

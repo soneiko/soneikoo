@@ -12,7 +12,8 @@ layout: default
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Branch Sums]({% post_url 2022-02-20-branch-sums %})<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Binary Tree Diameter]({% post_url 2022-02-28-binary-tree-diameter %})
 ### &#9815; Dynamic Programming
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Min Number Of Coins For Change]({% post_url 2022-02-20-min-number-of-coins-for-change %})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Min Number Of Coins For Change]({% post_url 2022-02-20-min-number-of-coins-for-change %})<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Longest Common Subsequence]({% post_url 2022-03-02-longest-common-subsequence %})
 ### &#9816;	 Famous Algorithms
 ### &#9817;	 Graphs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Rectangle Mania]({% post_url 2022-02-21-rectangle-mania %})

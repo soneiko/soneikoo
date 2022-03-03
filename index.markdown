@@ -19,6 +19,7 @@ layout: default
 ### &#9817;	 Graphs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Rectangle Mania]({% post_url 2022-02-21-rectangle-mania %})
 ### &#9818; Greedy Algorithms
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Tandem Bicycle]({% post_url 2022-03-03-tandem-bicycle %})
 ### &#9819;	 Heaps
 ### &#9820;	 Linked Lists
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Remove Duplicates From Linked List]({% post_url 2022-02-21-remove-duplicates-from-linked-list %})

@@ -37,7 +37,7 @@ tree =         1
  
  **Solution**
  
- I don't know exactly, what technique is used in solution. Because it has inspiring ideas from such theories like Recursion, DFS, Divide&Conquer and Dynamic Programming. Beautilly, solution itself is very concise. Just look at the code, it doesn't require additional explanation. 
+ I don't know exactly, what technique is used in solution. Because it has inspiring ideas from such theories like Recursion, DFS, Divide&Conquer and Dynamic Programming. Beautifully, solution itself is very concise. Just look at the code, it doesn't require additional explanation. 
  ```python
 def nodeDepths(root, depth=0):
     if not root:

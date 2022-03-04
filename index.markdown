@@ -33,5 +33,6 @@ layout: default
 ### &#9812; Stacks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Balanced Brackets]({% post_url 2022-02-25-balanced-brackets %})
 ### &#9813;	 Strings
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Palindrome Check]({% post_url 2022-02-27-palindrome-check %})
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Palindrome Check]({% post_url 2022-02-27-palindrome-check %})<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Caesar Cipher Encryptor]({% post_url 2022-03-04-caesar-cipher-encryptor %})
 ### &#9814;	 Tries

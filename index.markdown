@@ -27,6 +27,7 @@ layout: default
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Nth Fibonacci]({% post_url 2022-02-22-nth-fibonacci %})<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Permutations]({% post_url 2022-02-21-permutations %})
 ### &#9822; Searching
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Binary Search]({% post_url 2022-03-04-binary-search %})
 ### &#9815;	 Sorting
 ### &#9812; Stacks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Balanced Brackets]({% post_url 2022-02-25-balanced-brackets %})

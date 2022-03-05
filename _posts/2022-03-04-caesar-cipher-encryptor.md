@@ -24,7 +24,7 @@ key = 2
 
 **Solution**
 
-How to implement that "wrapping" around the alphabet, as problem statement mentions it? Well, we can do it with the remainder of division. Add key to the position of a letter in the alphabet, then divide it by the length of the alphabet and take the remainder.
+How to implement that "wrapping" around the alphabet, as the problem statement mentions it? Well, we can do it with the remainder of division. Add key to the position of a letter in the alphabet, then divide it by the length of the alphabet and take the remainder.
 ```python
 def caesarCipherEncryptor(string, key):
     alphabet = "abcdefghijklmnopqrstuvwxyz"

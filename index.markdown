@@ -5,6 +5,7 @@ layout: default
 
 ### &#9812; Arrays
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Two Number Sum]({% post_url 2022-02-28-two-number-sum %})<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Validate Subsequence]({% post_url 2022-04-17-validate-subsequence %})<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Smallest Difference]({% post_url 2022-03-03-smallest-difference %})<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Merge Overlapping Intervals]({% post_url 2022-02-26-merge-overlapping-intervals %})
 ### &#9813; Binary Search Trees

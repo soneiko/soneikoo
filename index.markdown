@@ -31,6 +31,7 @@ layout: default
 ### &#9822; Searching
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Binary Search]({% post_url 2022-03-04-binary-search %})
 ### &#9815;	 Sorting
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Bubble Sort]({% post_url 2022-04-19-bubble-sort %})
 ### &#9812; Stacks
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &#9737; [Balanced Brackets]({% post_url 2022-02-25-balanced-brackets %})
 ### &#9813;	 Strings
